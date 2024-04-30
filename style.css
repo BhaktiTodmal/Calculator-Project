@@ -32,14 +32,14 @@ input{
 button{
     border-radius: 20px;
     font-size: 25px;
-    background-color: rgb(240, 209, 234);
+    background-color: rgb(216, 139, 119);
     width: 90px;
     height: 70px;
     margin: 2px;
 
 }
 .calculator{
-    background-color: rgb(255, 0, 170);
+    background-color: rgb(216, 61, 14);
     padding: 23px;
     border-radius:53px;
     display: inline-block;
