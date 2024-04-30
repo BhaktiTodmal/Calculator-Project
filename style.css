@@ -1,3 +1,19 @@
+body {
+    background-image: url('particlesjs-examples.gif');
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Ensures the background image stays fixed while scrolling */
+    background-size: cover; /* Covers the entire viewport */
+    /* Optionally, you can add animation properties */
+    animation: backgroundAnimation 20s infinite; /* Adjust duration and iteration count as needed */
+}
+
+@keyframes backgroundAnimation {
+    0% { background-position: 0 0; }
+    50% { background-position: 100% 0; }
+    100% { background-position: 0 0; }
+}
+
+
 .container{
     text-align: center;
     margin: top 23px;
